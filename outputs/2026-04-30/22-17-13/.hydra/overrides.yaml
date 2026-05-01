@@ -1,0 +1,6 @@
+- habitat_baselines.num_environments=1
+- habitat_baselines.total_num_steps=200000
+- habitat_baselines.num_checkpoints=4
+- habitat_baselines.log_interval=10
+- habitat_baselines.torch_gpu_id=-1
+- habitat_baselines.force_torch_single_threaded=True

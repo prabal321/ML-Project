@@ -1,0 +1,7 @@
+- habitat_baselines.evaluate=True
+- habitat_baselines.num_environments=1
+- habitat_baselines.test_episode_count=10
+- habitat_baselines.eval_ckpt_path_dir=data/new_checkpoints
+- habitat_baselines.video_dir=video_dir
+- habitat_baselines.torch_gpu_id=-1
+- habitat_baselines.force_torch_single_threaded=True

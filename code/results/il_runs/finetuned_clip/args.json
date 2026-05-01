@@ -1,0 +1,13 @@
+{
+  "epochs": 5,
+  "batch_size": 4,
+  "lr": 0.0001,
+  "fusion": "concat",
+  "seed": 42,
+  "data_frac": 1.0,
+  "scene_filter": null,
+  "finetune_clip": 2,
+  "use_class_weights": false,
+  "out_dir": "code/results/il_runs",
+  "run_name": "finetuned_clip"
+}

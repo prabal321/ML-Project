@@ -1,0 +1,10 @@
+{
+  "epochs": 10,
+  "batch_size": 2,
+  "lr": 0.0003,
+  "fusion": "concat",
+  "seed": 42,
+  "use_class_weights": false,
+  "out_dir": "code/results/il_runs",
+  "run_name": "bs2"
+}

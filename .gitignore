@@ -1,0 +1,69 @@
+# ====================================================================
+# Third-party code (don't redistribute)
+# ====================================================================
+habitat-lab/
+habitat-sim/
+habitat_baselines/
+build/
+
+# ====================================================================
+# Data: scenes, datasets, rendered trajectories
+# Licensed and/or reproducible from setup scripts
+# ====================================================================
+data/scene_datasets/
+data/datasets/
+data/vln_traj/
+data/test_assets/
+data/versioned_data/
+
+# ====================================================================
+# Heavy artifacts (videos, logs, intermediate checkpoints)
+# Keep best.pt; skip latest.pt + tensorboard logs
+# ====================================================================
+**/latest.pt
+**/tb/
+**/events.out.tfevents.*
+**/videos/
+**/*.mp4
+**/eval_rollout/videos/
+**/eval_with_heuristic/videos/
+
+# ====================================================================
+# Python / conda
+# ====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+env/
+ENV/
+miniforge*/
+*.egg-info/
+.eggs/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ====================================================================
+# Editor / OS
+# ====================================================================
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*~
+
+# ====================================================================
+# Logs
+# ====================================================================
+*.log
+nohup.out
+
+# ====================================================================
+# CHECKPOINTS — too large for GitHub (each best.pt is ~600 MB)
+# Reproducible from training code. See README for re-training.
+# ====================================================================
+**/best.pt
+**/best.pth
+data/new_checkpoints/

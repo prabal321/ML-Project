@@ -1,0 +1,19 @@
+{
+  "ckpt": "code/results/il_runs/concat_lr0.0003_1777577508/best.pt",
+  "overall": 0.6741440377804014,
+  "per_scene": {
+    "skokloster-castle": {
+      "acc": 0.777027027027027,
+      "n_eps": 9,
+      "n_steps": 592,
+      "correct": 460
+    },
+    "van-gogh-room": {
+      "acc": 0.43529411764705883,
+      "n_eps": 11,
+      "n_steps": 255,
+      "correct": 111
+    }
+  },
+  "gap": 0.34173290937996814
+}

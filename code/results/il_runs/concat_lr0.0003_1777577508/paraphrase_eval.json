@@ -1,0 +1,8 @@
+{
+  "ckpt": "code/results/il_runs/concat_lr0.0003_1777577508/best.pt",
+  "n_val": 20,
+  "orig_val_acc": 0.6741440377804014,
+  "para_val_acc": 0.6481700118063755,
+  "delta": -0.025974025974025983,
+  "verdict": "Some sensitivity to phrasing"
+}

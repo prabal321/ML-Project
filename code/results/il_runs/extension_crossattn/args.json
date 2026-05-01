@@ -1,0 +1,13 @@
+{
+  "epochs": 10,
+  "batch_size": 4,
+  "lr": 0.0003,
+  "fusion": "crossattn",
+  "seed": 42,
+  "data_frac": 1.0,
+  "scene_filter": null,
+  "finetune_clip": 0,
+  "use_class_weights": false,
+  "out_dir": "code/results/il_runs",
+  "run_name": "extension_crossattn"
+}
