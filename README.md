@@ -8,8 +8,8 @@ in a 3-D scene.
 
 ## Authors
 
-- Prabal Sharma — 2023CSB1145
 - Abhijeet Singh — 2023CSB1094
+- Prabal Sharma — 2023CSB1145
 - Parashdeep Singh — 2023MCB1306
 
 ## Quick results
