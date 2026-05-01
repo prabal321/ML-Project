@@ -90,3 +90,15 @@ Mac-specific issues and fixes.
 
 Course-project code, all rights reserved. Habitat-lab and Habitat-sim
 (referenced but not included) are MIT-licensed by Meta Platforms Inc.
+
+## Note on checkpoints
+
+Trained model checkpoints (`best.pt` files) are **not included** in this
+repository. Each is ~600 MB (frozen CLIP weights are baked into the
+PyTorch state_dict), which exceeds GitHub's 100 MB per-file limit.
+
+To reproduce a checkpoint, run the corresponding training command from
+the "Reproducing" section above. Each baseline epoch takes ~110s on M2
+CPU; full 20-epoch training takes ~37 min.
+
+If you need the trained weights for a specific run, contact the authors.
