@@ -9,8 +9,9 @@ in a 3-D scene.
 ## Authors
 
 - Abhijeet Singh — 2023CSB1094
-- Prabal Sharma — 2023CSB1145
 - Parashdeep Singh — 2023MCB1306
+- Prabal Sharma — 2023CSB1145
+
 
 ## Quick results
 
